@@ -1,0 +1,85 @@
+src
+|-- app
+|   |-- constants.ts
+|   |-- FooterSidebar.astro
+|   |-- FooterStacked.astro
+|   |-- LayoutCommon.astro
+|   |-- LayoutSidebar.astro
+|   |-- LayoutStacked.astro
+|   |-- NavBarSidebar.astro
+|   |-- NavBarStacked.astro
+|   `-- SideBar.astro
+|-- assets
+|   |-- astro-icon.svg
+|   |-- astro-logo-dark.svg
+|   |-- astro-logo-light.svg
+|   `-- flowbite-logo.svg
+|-- components
+|   |-- ColorModeSwitcher.astro
+|   |-- ConfettiLauncher.astro
+|   |-- CopyrightNotice.astro
+|   |-- GitHubButton.astro
+|   |-- NavPagination.astro
+|   |-- PictureUploader.astro
+|   |-- README.md
+|   |-- SearchInput.astro
+|   `-- ToggleSwitch.astro
+|-- env.d.ts
+|-- lib
+|   `-- data.ts
+|-- modules
+|   |-- CrudEntities.client.ts
+|   |-- CrudProducts.astro
+|   |-- CrudUsers.astro
+|   |-- DashBoard.astro
+|   |-- DashBoard.client.ts
+|   |-- ErrorMaintenance.astro
+|   |-- ErrorNotFound.astro
+|   |-- ErrorServer.astro
+|   |-- FormForgotPassword.astro
+|   |-- FormProfileLock.astro
+|   |-- FormResetPassword.astro
+|   |-- FormSignIn.astro
+|   |-- FormSignUp.astro
+|   |-- LandingReadme.astro
+|   |-- PricingPlan.astro
+|   `-- UserSettings.astro
+|-- pages
+|   |-- 404.astro
+|   |-- api
+|   |   `-- [...entity].ts
+|   |-- authentication
+|   |   |-- forgot-password.astro
+|   |   |-- profile-lock.astro
+|   |   |-- reset-password.astro
+|   |   |-- sign-in.astro
+|   |   `-- sign-up.astro
+|   |-- crud
+|   |   |-- products.astro
+|   |   `-- users.astro
+|   |-- dashboard.astro
+|   |-- favicon.svg.ts
+|   |-- index.astro
+|   |-- layouts
+|   |   |-- sidebar.astro
+|   |   `-- stacked.astro
+|   |-- pages
+|   |   |-- 500.astro
+|   |   |-- maintenance.astro
+|   |   `-- pricing.astro
+|   |-- playground
+|   |   |-- _actions.ts
+|   |   |-- data.astro
+|   |   |-- kitchen-sink.astro
+|   |   |-- sidebar.astro
+|   |   `-- stacked.astro
+|   `-- settings.astro
+|-- services
+|   |-- index.ts
+|   |-- products.ts
+|   |-- README.md
+|   `-- users.ts
+`-- types
+    `-- entities.ts
+
+14 directories, 68 files

@@ -1,0 +1,45 @@
+
+######################################################
+spc/app/NavBarSidebar.astro
+
+      <div class="flex items-center justify-start">
+        <button id="toggleSidebar" aria-expanded="true" aria-controls="sidebar" class="">
+         TEST 
+        </button>
+
+
+
+######################################################
+spc/app/Sidebar.astro
+   
+   const toggleSidebar = (                  /* GS */
+      sidebar: HTMLElement,
+    ) => {
+      console.log("toggleSidebar", sidebar);
+      //sidebar.classList.toggle("hidden");
+      //sidebar-toggle-item
+      //const hideitems = sidebar.querySelectorAll(".sidebar-toggle-item");
+      //const hideitems = document.querySelectorAll(".sidebar-toggle-item");
+      const hideitems = sidebar.querySelectorAll('[sidebar-toggle-item]');
+      console.log("hideitems", hideitems.length);
+           hideitems.forEach((item) => {
+                 item.classList.toggle("hidden");
+           });
+        
+              
+    };
+
+    const toggleSidebarEl = document.getElementById(
+      "toggleSidebar",
+    );
+
+    toggleSidebarEl?.addEventListener("click", () => {
+      toggleSidebar(
+        sidebar,
+      );
+    });
+
+
+
+######################################################
+
