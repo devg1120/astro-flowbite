@@ -1,0 +1,42 @@
+.container {
+    position: relative;
+    margin: 20px;
+    padding: 8px;
+    width: 800px;
+    height: 600px;
+    display: inline-block;
+    background: #eee;
+    border: 1px solid #333;
+    overflow: auto;
+}
+
+.item {
+    display: flex;
+    width: 200px;
+    height: 40px;
+    padding: 4px;
+    background: #fff;
+    border: 1px solid #333;
+    user-select: none;
+    cursor: move;
+}
+
+.item .inner {
+    margin: auto 0;
+}
+
+.item.float {
+    position: absolute;
+    z-index: 10000;
+    opacity: 0.4;
+}
+
+.item.hidden {
+    display: none;
+}
+
+.item.shadow {
+    background: rgba(0, 0, 0, 0.1);
+    border: 1px dashed #333;
+}
+
