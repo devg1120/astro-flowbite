@@ -1,0 +1,17 @@
+
+/*
+      <Draggable id="draggable-1" />
+      <Droppable id="droppable-2" />
+*/
+
+#draggable-1 {
+
+    width:  20px;
+    height:  20px;
+}
+
+#droppable-2 {
+
+    width:  300px;
+    height:  300px;
+}

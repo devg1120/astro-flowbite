@@ -1,0 +1,33 @@
+{
+  "name": "solid-dnd-site",
+  "version": "0.1.0",
+  "description": "Website for Solid Drag & Drop library.",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "prettier": "^3.0.3",
+    "vite": "^4.4.9",
+    "vite-plugin-solid": "^2.7.0",
+    "vite-plugin-windicss": "^1.9.1"
+  },
+  "dependencies": {
+    "@fontsource/jetbrains-mono": "^5.0.12",
+    "@fontsource/poppins": "^5.0.8",
+    "@solidjs/router": "^0.8.3",
+    "@tabler/icons-solidjs": "^2.38.0",
+    "@thisbeyond/solid-dnd": "^0.7.4",
+    "@thisbeyond/solid-select": "^0.14.0",
+    "big.js": "^6.2.1",
+    "classcat": "^5.0.4",
+    "prismjs": "^1.29.0",
+    "solid-js": "^1.7.12"
+  },
+  "packageManager": "pnpm@8.6.0",
+  "engines": {
+    "node": ">=18.0.0",
+    "pnpm": ">=8.6.0"
+  }
+}

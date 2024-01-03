@@ -1,0 +1,54 @@
+
+/* draggable */
+
+#draggable-1 {
+    width:  100px;
+    height:  30px;
+    background-color: #bbff00; 
+}
+
+#draggable-2 {
+    width:  100px;
+    height:  30px;
+    background-color: #9999FF; 
+}
+
+#draggable-3 {
+    width:  100px;
+    height:  30px;
+    background-color: #FF9999; 
+}
+
+#draggable-4 {
+    width:  100px;
+    height:  30px;
+    background-color: #FFFF99; 
+}
+
+#draggable-5 {
+    width:  100px;
+    height:  30px;
+    background-color: #0080FF; 
+}
+/* drappable */
+
+#droppable-1 {
+    width:  500px;
+    height:  150px;
+    background-color: white; 
+    border:  1px solid black;
+}
+
+#droppable-2 {
+    width:  500px;
+    height:  150px;
+    background-color: white; 
+    border:  1px solid black;
+}
+
+#droppable-3 {
+    width:  500px;
+    height:  150px;
+    background-color: white; 
+    border:  1px solid black;
+}
